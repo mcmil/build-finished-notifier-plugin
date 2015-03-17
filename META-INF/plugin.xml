@@ -1,0 +1,39 @@
+<idea-plugin version="2">
+    <id>pl.cmil.buildFinishedNotifier</id>
+    <name>Build Finished Notifier</name>
+    <version>0.1</version>
+    <vendor email="cmilmichal@gmail.com" url="https://github.com/mcmil/wuff-intellij-plugin">Michal Ćmil
+    </vendor>
+    <description><![CDATA[
+      This plugin plays a sound whe a build is finished.
+    ]]></description>
+
+    <change-notes><![CDATA[
+      <ul>
+        <li>Initial version. Plays a single sound when external build is finished.
+      </ul>
+    ]]>
+    </change-notes>
+
+    <!-- please see http://confluence.jetbrains.com/display/IDEADEV/Build+Number+Ranges for description -->
+    <idea-version since-build="131"/>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+    </extensions>
+
+    <application-components>
+        <component>
+            <implementation-class>pl.cmil.notifier.ExternalSystemListenerRegistrator</implementation-class>
+        </component>
+    </application-components>
+
+    <project-components>
+        <!-- Add your project components here -->
+    </project-components>
+
+    <actions>
+        <!-- Add your actions here -->
+    </actions>
+
+</idea-plugin>
