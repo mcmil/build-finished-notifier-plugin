@@ -2,10 +2,10 @@
     <id>pl.cmil.buildFinishedNotifier</id>
     <name>Build Finished Notifier</name>
     <version>0.1</version>
-    <vendor email="cmilmichal@gmail.com" url="https://github.com/mcmil/wuff-intellij-plugin">Michal Ćmil
+    <vendor email="cmilmichal@gmail.com" url="https://github.com/mcmil/build-finished-notifier-plugin">Michal Ćmil
     </vendor>
     <description><![CDATA[
-      This plugin plays a sound whe a build is finished.
+      This plugin plays a sound when a build from an external system (e.g. Gradle) is finished.
     ]]></description>
 
     <change-notes><![CDATA[
